@@ -1,0 +1,229 @@
+body{
+    border-radius: 2%;
+    box-shadow: 0 0 30px khaki;
+    margin: 60px 70px;
+    padding: 10px 0px;
+    backdrop-filter: blur(10px);
+    background-image: url(fondo3.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.boton{
+    margin: 30px;
+    padding: 1px;
+    height: 1px;
+    width: 1px;
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+}
+/* img{
+    padding: 10px;
+    height: 120px;
+    width: 120px;
+} */
+
+.btn span {
+    padding: 3px 0;
+    font-size: 1em;
+    display: block;
+    /* margin: 10px; */
+    font-weight: 700;
+    background-color: transparent;
+    /* border-radius: 1px; */
+    border-radius: 10px;
+    
+}
+
+
+
+.btn{
+    font-family: "Ubuntu", sans-serif;
+    width: 100px;
+    /* background-image: linear-gradient(
+        115deg,
+        skyblue,
+        darkgreen,
+        purple,
+        hotpink,
+        orange
+    ); */
+    text-align: center;
+    /* padding: 2px; */
+    text-decoration: none;
+    display: block;
+    border-radius: 10px;
+    overflow: hidden;
+    color: #fff;
+    box-shadow: 0 0 5px khaki,0 0 25px skyblue;
+    transition: all 0.4s ease;
+    cursor: pointer;
+    
+}
+
+.btn:hover {
+    animation: color 4.5s ease-in
+    infinite;
+    box-shadow: 0 0 5px khaki,
+    0 0 25px khaki,
+    0 0 50px khaki,
+    0 0 100px khaki;
+}
+
+/* @keyframes color {
+    0%{
+        background-position: 0px;
+    }
+    100%{
+        background-position: -350px;
+    }
+} */
+
+.imagen{
+    background-image: url(logo5.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 30px 20px;
+    padding: 45px 0px;
+    
+       
+}
+.contenido{
+   
+    text-align: center;
+    font-size: 40px;
+}
+
+.container{
+    display: flex
+    
+   
+}
+iframe{
+    border-radius: 5%;
+    margin-left: 50px
+    
+}
+h1{
+    text-shadow: 0 0 20px khaki;
+    font-size: 100px;
+}
+.Informacion{
+    font-size: 20px;
+    padding: 60px 10px ;
+    border: none;
+    border-radius: 50px;
+    background-color: transparent;
+    box-shadow: 0 0 5px khaki;
+    cursor: pointer;
+    text-align: center ;
+    margin-right: 50px;
+    
+
+    
+}
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+*{
+    box-sizing: border-box;
+}
+.pie-pagina{
+    width: 100%;
+    background-color: transparent;
+}
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:50px;
+    padding: 45px 0px;
+}
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pie-pagina .grupo-1 .box figure img{
+    width: 250px;
+}
+.pie-pagina .grupo-1 .box h2{
+    color: maroon;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+.pie-pagina .grupo-1 .box p{
+    color: #efefef;
+    margin-bottom: 10px;
+}
+.pie-pagina .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: maroon;
+    text-align: center;
+    transition: all 300ms ease;
+    border-radius: 20%;
+    box-shadow: 0 0 10px khaki;
+}
+.pie-pagina .grupo-1 .red-social a:hover{
+    color: aqua;
+}
+.pie-pagina .grupo-2{
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+    text-shadow: 0 0 10px khaki;
+}
+.pie-pagina .grupo-2 small{
+    font-size: 15px;
+}
+@media screen and (max-width:800px){
+    .pie-pagina .grupo-1{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap:30px;
+        padding: 35px 0px;
+    }
+}
+.header {
+    display: flex; /* Alinea los elementos horizontalmente */
+    align-items: center; /* Alinea verticalmente al centro */
+    font-size: px;
+    text-shadow: 0 0 10px khaki; 
+    color: rgb(0, 0, 0);
+  }
+  
+  .logo {
+    margin-right: 150px; /* Espacio entre el logo y el título */
+    width: 180px; /* define el ancho del logo */
+    height: auto;  /* mantiene la posicion*/
+    margin-left: 150px;
+  }
+  
+  .title {
+    font-size: 80px; /* tamaño del titulo */
+  }
+  .masp {
+    margin-left: 20px;
+  }
+  .Informacion {
+    margin-left: 100px;
+  }

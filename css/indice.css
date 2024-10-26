@@ -1,0 +1,217 @@
+body{
+    border-radius: 2%;
+    box-shadow: 0 0 30px khaki;
+    margin: 60px 70px;
+    padding: 10px 0px;
+    backdrop-filter: blur(10px);
+    background-image: url(fondo3.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.boton{
+    margin: 30px;
+    padding: 1px;
+    height: 1px;
+    width: 1px;
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+}
+/* img{
+    padding: 10px;
+    height: 120px;
+    width: 120px;
+} */
+
+.btn span {
+    padding: 3px 0;
+    font-size: 1em;
+    display: block;
+    /* margin: 10px; */
+    font-weight: 700;
+    background-color: transparent;
+    /* border-radius: 1px; */
+    border-radius: 10px;
+    
+}
+
+
+
+.btn{
+    font-family: "Ubuntu", sans-serif;
+    width: 100px;
+    /* background-image: linear-gradient(
+        115deg,
+        skyblue,
+        darkgreen,
+        purple,
+        hotpink,
+        orange
+    ); */
+    text-align: center;
+    /* padding: 2px; */
+    text-decoration: none;
+    display: block;
+    border-radius: 10px;
+    overflow: hidden;
+    color: #fff;
+    box-shadow: 0 0 5px khaki,0 0 25px skyblue;
+    transition: all 0.4s ease;
+    cursor: pointer;
+    
+}
+
+.btn:hover {
+    box-shadow: 0 0 5px khaki,
+    0 0 25px khaki,
+    0 0 50px khaki,
+    0 0 100px khaki;
+}
+
+/* @keyframes color {
+    0%{
+        background-position: 0px;
+    }
+    100%{
+        background-position: -350px;
+    }
+} */
+
+.titulo{
+        text-align: center;
+        font-size: 30px;
+        color: black;
+        text-shadow: 0 0 5px khaki,0 0 25px skyblue;
+        transition: all 0.4s ease;
+
+}
+.titulo:hover {
+    text-shadow: 0 0 5px khaki,
+    0 0 25px khaki,
+    0 0 50px khaki,
+    0 0 100px khaki;
+}
+.container{
+        width:100%;
+        display: flex;
+        max-width:1000px ;
+        margin: auto;
+}
+
+.card{
+    width: 100%;
+    margin: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+    background:transparent;
+    box-shadow: 0 0 20px khaki;
+    cursor: default;
+    transition: all 400ms ease;
+       
+}
+.card:hover{
+        box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+        transform: translateY(-3%);
+}
+.card img{
+        width: 100%;
+        height: 210px;
+        border-radius: 10px;
+}
+
+.card .contenido{
+        text-shadow: 0 0 10px khaki;
+        padding: 15px;
+        text-align: center;
+}
+.card .contenido a{
+        text-decoration: none;
+        display: inline-block;
+        padding: 10px;
+        margin-top: 10px;
+        color: #2fb4cc;
+        border: 1px solid  #2fb4cc;
+        border-radius: 4px;
+        transition: all 400ms ease;
+        
+}
+.card .contenido a:hover{
+        background: #2fb4cc ;
+        color: #fff;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+*{
+    box-sizing: border-box;
+}
+.pie-pagina{
+    width: 100%;
+    background-color: transparent;
+}
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:50px;
+    padding: 45px 0px;
+}
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pie-pagina .grupo-1 .box figure img{
+    width: 250px;
+}
+.pie-pagina .grupo-1 .box h2{
+    color: maroon;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+.pie-pagina .grupo-1 .box p{
+    color: #efefef;
+    margin-bottom: 10px;
+}
+.pie-pagina .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: maroon;
+    text-align: center;
+    transition: all 300ms ease;
+    border-radius: 20%;
+    box-shadow: 0 0 10px khaki;
+}
+.pie-pagina .grupo-1 .red-social a:hover{
+    color: aqua;
+}
+.pie-pagina .grupo-2{
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+    text-shadow: 0 0 10px khaki;
+}
+.pie-pagina .grupo-2 small{
+    font-size: 15px;
+}
+@media screen and (max-width:800px){
+    .pie-pagina .grupo-1{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap:30px;
+        padding: 35px 0px;
+    }
+}
